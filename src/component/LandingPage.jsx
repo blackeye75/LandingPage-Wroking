@@ -57,13 +57,13 @@ export default function LandingWithPopup() {
               animation: "underlineGrow 4s ease-out forwards",
             }}
           />
-          <p className="sm:mt-0 mt-[.1vh]  sm:text-lg text-xs uppercase  tracking-tight  text-[#4b3a45]">One Degree, Unlimited opportunities</p>
+          <p className="sm:mt-0 mt-[.1vh]  sm:text-sm text-xs uppercase  tracking-tight  text-[#4b3a45]">A Strong Foundation, for  Unlimited Opportunities</p>
           <div
             className="
     h-px 
-    w-[40vw] sm:w-[22vw] 
+    w-[40vw] sm:w-[23vw] 
     tracking-tight sm:tracking-tighter 
-    -mt-0.5 sm:-mt-0.5 
+    -mt-0.5 sm:-mt-0.9 
     bg-linear-to-r from-amber-500 via-orange-500 to-red-500
     origin-left
   "

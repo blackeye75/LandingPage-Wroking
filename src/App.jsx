@@ -15,8 +15,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const features = [
   {
-    title: "Latest Tech Based Learning Systems",
-    desc: "Excellent mobile application based learning platform. Facilities like recorded lectures & eBooks",
+    title: "Study at your own pace",
+    desc: "Access all course materials anytime through the Student Zone app on desktop and mobile devices.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
         <rect x="3" y="4" width="18" height="14" rx="2" stroke="white" strokeWidth="1.2" />
@@ -25,8 +25,8 @@ const features = [
     ),
   },
   {
-    title: "Best-in-class Student Services",
-    desc: "Multiple touchpoints; email, toll free no. and live chat. Dedicated student support team",
+    title: "Learn using online resources",
+    desc: "Access e-books, journals, transcripts, and recorded lectures 24×7 with faculty interaction support.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
         <circle cx="12" cy="8" r="2.2" stroke="white" strokeWidth="1.2" />
@@ -35,8 +35,8 @@ const features = [
     ),
   },
   {
-    title: "Career Services",
-    desc: "Unique services offering career development & assistance. Right mentoring and guidance",
+    title: "Dedicated student success team",
+    desc: " Raise queries via ticketing, chat, or callback support available Monday to Saturday, 9 AM–7 PM.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
         <path d="M12 3v6" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
@@ -45,8 +45,8 @@ const features = [
     ),
   },
   {
-    title: "Live Interactive & Recorded Lectures",
-    desc: "600+ faculty members, 24/7 access to all content, including recorded sessions of lectures",
+    title: "Practice interview",
+    desc: " One-on-one mock interview sessions to improve confidence and performance for jobs and career growth.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
         <rect x="3" y="5" width="18" height="12" rx="1" stroke="white" strokeWidth="1.2" />
@@ -55,8 +55,28 @@ const features = [
     ),
   },
   {
-    title: "High Focus on Academic Excellence",
-    desc: "600+ faculty members, including academicians and industry experts. Globally curated curriculum",
+    title: "Assessment",
+    desc: "Six-month access to premium job portals with highlighted applications and improved profile visibility.",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+        <path d="M4 6h16" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
+        <path d="M6 10h12v8H6z" stroke="white" strokeWidth="1.2" />
+      </svg>
+    ),
+  },
+  {
+    title: "Coaching",
+    desc: "Personalised expert coaching to plan career goals and build a clear professional roadmap.",
+    icon: (
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+        <path d="M4 6h16" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
+        <path d="M6 10h12v8H6z" stroke="white" strokeWidth="1.2" />
+      </svg>
+    ),
+  },
+  {
+    title: "Profile Development",
+    desc: " Expert mentoring on resume building, social media profiling, and personal branding for better shortlisting.",
     icon: (
       <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
         <path d="M4 6h16" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
@@ -90,7 +110,7 @@ function App() {
       </div>
       <SpecialisationsSection backgroundUrl='https://images.unsplash.com/photo-1588580000645-4562a6d2c839?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
       {/* <LeadFeatures /> */}
-      <AutoCarouselFeatures items={features} autoPlayMs={3500} transitionMs={600} />
+      <AutoCarouselFeatures items={features} autoPlayMs={2500} transitionMs={600} />
       <AboutSection bgImage='https://images.unsplash.com/photo-1565502663138-84933158ca50?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' />
       <CampusAddress imageSrc='https://edukyu.com/nmimsonlinemba/assets-cxp/nmims_ofc.png' />
     </div>

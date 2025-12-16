@@ -35,13 +35,10 @@ export default function ElevateCard({ imageSrc = '/hero-person.png' }) {
           <h2 className="text-2xl md:text-5xl  font-semibold text-[#3a1630] leading-tight">Elevate Your Career</h2>
           <div className="w-16 h-0.5 bg-[#3a1630] sm:mt-4 sm:mb-6 mt-2 mb-4"></div>
 
-          <h3 className="text-lg md:text-xl font-semibold sm:leading-none leading-tight  sm:font-bold text-[#2b1b2b]">An MBA program to launch your career to the next level!</h3>
+          <h3 className="text-lg md:text-xl font-semibold sm:leading-none leading-tight  sm:font-bold text-[#2b1b2b]">A Bachelor’s program to help you start your career </h3>
 
           <p className="mt-4 sm:leading-none leading-[2.5vh] text-gray-700 max-w-2xl">
-            Get ready to take your career to the next level with NMIMS CDOE's MBA program. Our five contemporary
-            specialisations are designed for working professionals like you, offering flexible learning options from
-            expert faculty. Gain the skills and knowledge needed to succeed in today's competitive business landscape.
-            Enrol now to transform your future.
+            NMIMS CDOE brings to you the top-notch Bachelor of Commerce (B.Com) and Bachelor of Business Administration (BBA) Programmes, right at your doorstep. Delivered through Live Interactive Lectures using state-of-the-art online infrastructure, these programmes will help you build a solid foundation for a career in the corporate world or provide opportunities to pursue higher education in commerce, or management.
           </p>
         </div>
       </div>

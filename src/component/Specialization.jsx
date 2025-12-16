@@ -31,20 +31,20 @@ export default function SpecialisationsSection({ backgroundUrl = '/library-bg.jp
             <ul className="sm:space-y-6 space-y-3 max-w-3xl ml-4">
               <li className="flex items-start gap-4">
                 <div className="w-2 h-2 bg-[#3d1630] mt-2 rounded-full" />
-                <span className=" font-medium sm:font-semibold text-[#3d1630]">Business Management</span>
+                <span className=" font-medium sm:font-semibold text-[#3d1630]">FINANCE  </span>
               </li>
 
               <li className="flex items-start gap-4">
                 <div className="w-2 h-2 bg-[#3d1630] mt-2 rounded-full" />
-                <span className=" font-medium sm:font-semibold text-[#3d1630]">Marketing Management</span>
+                <span className=" font-medium sm:font-semibold text-[#3d1630]">MARKETING </span>
               </li>
 
               <li className="flex items-start gap-4">
                 <div className="w-2 h-2 bg-[#3d1630] mt-2 rounded-full" />
-                <span className=" font-medium sm:font-semibold text-[#3d1630]">Financial Management</span>
+                <span className=" font-medium sm:font-semibold text-[#3d1630]">ANALYTICS </span>
               </li>
 
-              <li className="flex items-start gap-4">
+              {/* <li className="flex items-start gap-4">
                 <div className="w-2 h-2 bg-[#3d1630] mt-2 rounded-full" />
                 <span className=" font-medium sm:font-semibold text-[#3d1630]">Human Resource Management</span>
               </li>
@@ -52,7 +52,7 @@ export default function SpecialisationsSection({ backgroundUrl = '/library-bg.jp
               <li className="flex items-start gap-4">
                 <div className="w-2 h-2 bg-[#3d1630] mt-2 rounded-full" />
                 <span className=" font-medium sm:font-semibold text-[#3d1630]">Operations & Data Science Management</span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

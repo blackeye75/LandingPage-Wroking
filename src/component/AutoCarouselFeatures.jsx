@@ -124,19 +124,64 @@ export default function AutoCarouselFeatures({
             <article
               data-card
               key={idx}
-              className="flex-none w-[88%] sm:w-[47%] lg:w-[18%] rounded-lg overflow-hidden shadow-lg h-full flex flex-col"
-              aria-hidden={idx >= items.length ? true : false}
+              aria-hidden={idx >= items.length}
+              className="
+      flex-none w-[88%] sm:w-[47%] lg:w-[18%]
+      h-[340px]
+      rounded-lg overflow-hidden
+      shadow-lg
+      flex flex-col
+    "
             >
-              <div className="bg-[#34142a] p-6 min-h-[150px] flex flex-col justify-between relative">
-                <h3 className="text-white text-lg font-semibold leading-snug wrap-break-word pr-12">{item.title}</h3>
-                <div className="absolute right-4 bottom-4">{item.icon}</div>
+              {/* TOP */}
+              <div
+                className="
+        bg-[#34142a]
+        p-6
+        h-[140px]
+        flex flex-col justify-between
+        relative
+        overflow-hidden
+      "
+              >
+                <h3
+                  className="
+          text-white text-lg font-semibold leading-snug
+          pr-12
+          max-h-[72px]
+          overflow-hidden
+        "
+                >
+                  {item.title}
+                </h3>
+
+                <div className="absolute right-4 bottom-4">
+                  {item.icon}
+                </div>
               </div>
 
-              <div className="bg-[#d0aa60] p-6 flex-1">
-                <p className="text-[#231815] text-sm leading-relaxed">{item.desc}</p>
+              {/* BOTTOM */}
+              <div
+                className="
+        bg-[#d0aa60]
+        p-6
+        flex-1
+        overflow-hidden
+      "
+              >
+                <p
+                  className="
+          text-[#231815] text-sm leading-relaxed
+          max-h-[96px]
+          overflow-hidden
+        "
+                >
+                  {item.desc}
+                </p>
               </div>
             </article>
           ))}
+
         </div>
       </div>
 

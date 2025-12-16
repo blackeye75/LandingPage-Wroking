@@ -3,8 +3,8 @@ import React from "react";
 export default function AboutSection({ bgImage = "/bg-campus.jpg" }) {
   const stats = [
     {
-      value: "1,56,000+",
-      label: "Active Students",
+      value: "500+",
+      label: "Hiring partners ",
       bg: "#3A2342",
       icon: (
         <svg width="46" height="46" viewBox="0 0 24 24" fill="none" className="opacity-30">
@@ -14,8 +14,8 @@ export default function AboutSection({ bgImage = "/bg-campus.jpg" }) {
       ),
     },
     {
-      value: "27,000+",
-      label: "Alumni",
+      value: "82000+ ",
+      label: "Alumni across world ",
       bg: "#D4B676",
       textColor: "#1C1C1C",
       icon: (
@@ -26,8 +26,8 @@ export default function AboutSection({ bgImage = "/bg-campus.jpg" }) {
       ),
     },
     {
-      value: "600+",
-      label: "Locations across India",
+      value: "8000+ ",
+      label: "Firms hired our alumni ",
       prefix: "Students from",
       bg: "#3A2342",
       icon: (
