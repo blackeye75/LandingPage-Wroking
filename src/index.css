@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Give+You+Glory&family=Quicksand:wght@300..700&family=Qwitcher+Grypen:wght@400;700&family=Smooch+Sans:wght@100..900&family=Space+Grotesk:wght@300..700&family=Tagesschrift&display=swap');
+@import "tailwindcss";
+
+
+
+.glowy-icon {
+ filter: drop-shadow(0 0 6px #22d3ee) drop-shadow(0 0 12px #22d3ee);
+}
+
+
+@keyframes underlineGrow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
