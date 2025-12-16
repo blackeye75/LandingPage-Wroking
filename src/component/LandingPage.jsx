@@ -54,7 +54,7 @@ export default function LandingWithPopup() {
   "
             style={{
               transform: "scaleX(0)",
-              animation: "underlineGrow 2s ease-out forwards",
+              animation: "underlineGrow 4s ease-out forwards",
             }}
           />
           <p className="sm:mt-0 mt-[.1vh]  sm:text-lg text-xs uppercase  tracking-tight  text-[#4b3a45]">One Degree, Unlimited opportunities</p>
@@ -69,7 +69,7 @@ export default function LandingWithPopup() {
   "
             style={{
               transform: "scaleX(0)",
-              animation: "underlineGrow 2s ease-out forwards",
+              animation: "underlineGrow 6s ease-out forwards",
             }}
           />
         </div>
