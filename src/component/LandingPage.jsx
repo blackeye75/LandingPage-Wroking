@@ -148,7 +148,7 @@ export default function LandingWithPopup() {
                 className="h-0.5 bg-linear-to-r sm:-mt-3.5  from-amber-500 via-orange-500 to-red-500"
               />
 
-              <h3 className="text-2xl font-serif">Inquire Now</h3>
+              <h3 className="text-2xl sm:mt-5 font-serif">Inquire Now</h3>
 
               {/* <div
                 className="h-0.5 bg-linear-to-r from-amber-500 via-orange-500 to-red-500 w-2/5 origin-left"
