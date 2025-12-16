@@ -61,7 +61,7 @@ export default function LandingWithPopup() {
           <div
             className="
     h-px 
-    w-[40vw] sm:w-[16vw] 
+    w-[40vw] sm:w-[22vw] 
     tracking-tight sm:tracking-tighter 
     -mt-0.5 sm:-mt-0.5 
     bg-linear-to-r from-amber-500 via-orange-500 to-red-500
@@ -392,7 +392,7 @@ export default function LandingWithPopup() {
                 />
               </div>
               <button onClick={() => setShowModal(false)} aria-label="Close" className="absolute right-3 top-4 w-9 h-9 rounded-full bg-red-50 flex items-center justify-center shadow">
-                <span className="text-black-600 hover:text-red-500 font-bold hover:brightness-90 hover:rotate-90 transition duration-300">✕</span>
+                <span className="text-black-600 hover:text-red-500 font-bold hover:font-extrabold hover:brightness-90 hover:rotate-180 transition duration-300">✕</span>
               </button>
 
               <div className="p-3 pt-4">
