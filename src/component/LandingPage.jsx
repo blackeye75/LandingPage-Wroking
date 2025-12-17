@@ -62,11 +62,8 @@ export default function LandingWithPopup() {
             }}
           /> */}
           <p className="sm:mt-0 -mt-1.5 sm:text-sm text-xs uppercase tracking-tight text-[#4b3a45]">
-            A Strong Foundation, for
-            {/* <br className="block sm:hidden" /> */}
-            Unlimited Opportunities
+            A Strong Foundation, for Unlimited Opportunities
           </p>
-
           <div
             className="
     h-px 
