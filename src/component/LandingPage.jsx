@@ -352,7 +352,7 @@ export default function LandingWithPopup() {
                 <label className="text-sm font-semibold">Choose a Program:</label>
                 <select className="w-full border border-gray-300 rounded px-2 py-1 outline-none text-sm">
                   <option>Online MBA</option>
-                  <option>Help me decide</option>
+                  <option>Help Me Decide</option>
                 </select>
 
                 <div className="mt-2">
@@ -440,7 +440,7 @@ export default function LandingWithPopup() {
 
                   <select className="w-full border border-gray-300 rounded px-2 py-1 outline-none text-sm">
                     <option>Online MBA</option>
-                    <option>Help Us Guide You</option>
+                    <option>Help Me Decide</option>
                   </select>
 
                   <div className="mt-2">
