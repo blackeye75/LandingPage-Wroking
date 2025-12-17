@@ -39,8 +39,10 @@ export default function CampusAddress({ imageSrc = "/nmims-campus.jpg" }) {
       </div>
 
       {/* Footer Bar */}
-      <footer className="w-full bg-[#7A1425] text-white py-4 text-center text-sm">
-        © 2019 All Rights Reserved. | <span className="underline cursor-pointer">Privacy Policy</span>
+      <footer className="w-full bg-[#7A1425] text-white py-4  sm:ml-0 text-center text-sm">
+        © 2025 All Rights Reserved. | <span className="underline cursor-pointer">Privacy Policy </span>
+        <br />
+        <span className="text-[#7A1425] no-underline" >  by-Darkroom Engineer</span>
       </footer>
     </section>
   );
