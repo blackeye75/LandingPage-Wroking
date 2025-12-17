@@ -37,12 +37,16 @@ export default function LandingWithPopup() {
           <div className="text-center font-semibold"><img src="./logo.webp" alt="" /></div>
         </div>
       </div>
-
+      {/* bg-[url('/bannerfull.png')] */}
       {/* Hero */}
-      <main className="w-full sm:min-h-screen h-[30vh] mx-auto sm:px-0 sm:py-3 bg-[url('/bannerfull.png')]  bg-no-repeat sm:bg-center sm:bg-contain bg-contain  bg-top-right sm:flex sm:items-center px-1 items-start gap-[15vw] relative">
+      <main className="w-full sm:min-h-screen h-[30vh] sm:bg-[url('/bannerfull.png')] mx-auto sm:px-0 sm:py-3  bg-no-repeat sm:bg-center sm:bg-contain bg-contain  bg-right sm:flex sm:items-center sm:space-x-10 px-1 items-start relative ">
+        <div className="relative w-full bg-transparent"  >
+          <img src="/Banner.png" className=" absolute z-20 -bottom-60 left-20 sm:hidden block w-[90vw] h-fit" alt="" />
+        </div>
+
         {/* //left */}
-        <div className="flex-1  sm:ml-20 sm:mt-[-20vh] mt-0 max-w-3xl">
-          <h1 className="sm:text-7xl leading-[5.5vh] uppercase sm:leading-[4.5vw] sm:tracking-tight sm:font-bold text-[40px] tracking-tighter font-medium text-[#34101d]">MBA Online</h1>
+        <div className="w-fit top-0  sm:-ml-[55vw]  z-20 mt-0 sm:-mt-[30vw] max-w-3xl">
+          <h1 className="sm:text-7xl leading-[5.5vh] uppercase sm:leading-[4.5vw] sm:tracking-tight sm:font-bold text-[40px] tracking-tighter font-medium text-[#34101d]">MBA Online</h1> 
           <div
             className="
     h-px 
@@ -57,7 +61,12 @@ export default function LandingWithPopup() {
               animation: "underlineGrow 4s ease-out forwards",
             }}
           />
-          <p className="sm:mt-0 mt-[.1vh]  sm:text-sm text-xs uppercase  tracking-tight  text-[#4b3a45]">A Strong Foundation, for  Unlimited Opportunities</p>
+          <p className="sm:mt-0 mt-[.1vh] sm:text-sm text-xs uppercase tracking-tight text-[#4b3a45]">
+            A Strong Foundation, for
+            <br className="block sm:hidden" />
+            Unlimited Opportunities
+          </p>
+
           <div
             className="
     h-px 
