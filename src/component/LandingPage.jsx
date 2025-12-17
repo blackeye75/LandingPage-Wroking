@@ -41,7 +41,7 @@ export default function LandingWithPopup() {
       {/* Hero */}
       <main className="w-full sm:min-h-screen h-[30vh] sm:bg-[url('/bannerfull.png')] mx-auto sm:px-0 sm:py-3  bg-no-repeat sm:bg-center sm:bg-contain bg-contain  bg-right sm:flex sm:items-center sm:space-x-10 px-1 items-start relative ">
         <div className="relative w-full bg-transparent"  >
-          <img src="/Banner.png" className=" absolute z-20 -bottom-60 left-20 sm:hidden block w-[90vw] h-fit" alt="" />
+          <img src="./Banner.png" className=" absolute z-20 -bottom-60 left-20 sm:hidden block w-[90vw] h-fit" alt="" />
         </div>
 
         {/* //left */}
