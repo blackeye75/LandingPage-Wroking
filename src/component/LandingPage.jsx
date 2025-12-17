@@ -88,7 +88,7 @@ export default function LandingWithPopup() {
           <div className="
      absolute
     inset-x-0
-    top-[25vh]
+    top-[26vh]
     px-0
 
     sm:w-fit
@@ -105,7 +105,7 @@ export default function LandingWithPopup() {
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
-              className="absolute -top-3 sm:left-24 left-28 z-10"
+              className="absolute -top-3 sm:left-24 left-[26vw] z-10"
             >
               <div
                 className="
@@ -148,7 +148,7 @@ export default function LandingWithPopup() {
 
             {/* form div */}
 
-            <div className="bg-white sm:w-96 w-screen sm:mt-0 mt-2 p-4 rounded shadow-lg ">
+            <div className="bg-white sm:w-96 w-screen sm:mt-0 mt-2 sm:p-4 p-3 rounded shadow-lg ">
 
               <motion.div
                 initial={{ width: 0 }}
