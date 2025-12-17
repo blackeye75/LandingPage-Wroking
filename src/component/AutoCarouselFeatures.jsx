@@ -21,7 +21,7 @@ export default function AutoCarouselFeatures({
   const [isPaused, setIsPaused] = useState(false);
 
   // duplicate items once to enable seamless loop
-  const doubled = [...items, ...items];
+  const doubled = [...items];
 
   // auto-advance index (counts physical items, not clones)
   const indexRef = useRef(0);

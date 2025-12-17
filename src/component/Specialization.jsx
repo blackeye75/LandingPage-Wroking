@@ -12,7 +12,7 @@ export default function SpecialisationsSection({ backgroundUrl = '/library-bg.jp
       <div className="relative max-w-7xl mx-auto px-6 py-20">
         {/* Title */}
         <div className="text-center mb-8">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl sm:font-extrabold font-bold sm:leading-none leading-[3.5vh] text-white">MBA Online Specialisations</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl sm:font-extrabold font-bold sm:leading-none leading-[3.5vh] text-white">BBA Online Specialisations</h2>
           <div className="w-16 h-1 bg-white mx-auto sm:mt-4 mt-2" />
         </div>
 
@@ -20,7 +20,7 @@ export default function SpecialisationsSection({ backgroundUrl = '/library-bg.jp
         <div className="bg-white mx-auto max-w-6xl shadow-xl rounded-sm relative">
           {/* purple tab */}
           <div className="absolute -top-6 left-12 bg-[#3d1630] text-white px-6 py-3 rounded-sm shadow-md flex items-center">
-            <span className="font-medium">MBA Online Specialisations</span>
+            <span className="font-medium">BBA Online Specialisations</span>
             {/* down triangle */}
             <svg className="ml-3" width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10 0L14.1421 7H5.85786L10 0Z" fill="#3d1630" transform="translate(-7 6) rotate(180)" />
