@@ -41,13 +41,13 @@ export default function LandingWithPopup() {
       {/* Hero */}
       <main className="w-full sm:min-h-screen h-[30vh] sm:bg-[url('/bannerfull.png')] mx-auto sm:px-0 sm:py-3  bg-no-repeat sm:bg-center sm:bg-contain bg-contain  bg-right sm:flex sm:items-center sm:space-x-10 px-1 items-start relative ">
         <div className="relative w-full bg-transparent"  >
-          <img src="./Banner.png" className=" absolute z-20 -bottom-60 left-20 sm:hidden block w-[90vw] h-fit" alt="" />
+          <img src="./banner.png" className=" absolute z-20 -bottom-60 left-20 sm:hidden block w-[90vw] h-fit" alt="" />
         </div>
 
         {/* //left */}
         <div className="w-fit top-0  sm:-ml-[58vw]  z-20 mt-0 sm:-mt-[15vw] max-w-3xl">
-          <h1 className="sm:text-6xl leading-[5.5vh] uppercase sm:leading-[3.5vw] sm:tracking-tight sm:font-bold text-[35px] tracking-tighter font-medium text-[#34101d]">Online Bachelors</h1> 
-          <div
+          <h1 className="sm:text-6xl leading-[5.5vh] uppercase sm:leading-[3.5vw] sm:tracking-tight sm:font-bold text-[35px] tracking-tighter font-medium text-[#34101d]">Online Bachelors</h1>
+          {/* <div
             className="
     h-px 
     w-[74vw] sm:w-[22vw] 
@@ -60,7 +60,7 @@ export default function LandingWithPopup() {
               transform: "scaleX(0)",
               animation: "underlineGrow 4s ease-out forwards",
             }}
-          />
+          /> */}
           <p className="sm:mt-0 mt-[.1vh] sm:text-sm text-xs uppercase tracking-tight text-[#4b3a45]">
             A Strong Foundation, for
             <br className="block sm:hidden" />
@@ -504,7 +504,7 @@ export default function LandingWithPopup() {
       >
         <div className="w-14 h-14 rounded-full shadow-2xl flex items-center justify-center text-white text-2xl cursor-pointer hover:scale-120 transition">
           <FaWhatsapp className="text-cyan-400 
-             drop-shadow-[0_0_6px_#22d3ee]" />
+             drop-shadow-[0_0_6px_#22d3ee] bg-green-600 rounded-full" />
         </div>
       </motion.div>
 
